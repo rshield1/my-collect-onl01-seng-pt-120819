@@ -1,17 +1,17 @@
 def my_collect(array)
   i = 0
+  collection = []
+
   while i < array.length
   
-  collection << yield array[i]
+  collection << yield(array[i])
   
   i = i + 1
-end
+  end
 
-collection
+  collection
   
 end
-
-
 
 
 my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"])
