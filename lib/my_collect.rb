@@ -5,4 +5,4 @@ end
 
 
 
-my_collect()
+my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"])
